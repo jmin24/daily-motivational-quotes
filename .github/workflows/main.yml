@@ -1,7 +1,7 @@
 name: daily-motivational-quote
 on:
   schedule:
-    - cron: "30 18 * * *"   # temporary test - 11:30 AM PDT
+    - cron: "50 18 * * *"   # temporary test - 11:50 AM PDT
   workflow_dispatch:
 jobs:
   run-script:
